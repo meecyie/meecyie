@@ -74,7 +74,7 @@
      body {
       position: absolute;
       overflow-x: hidden;
-      background-image: url(image/coccode.gif);
+      background-image: url(coccode.gif);
       background-repeat: no-repeat;
       background-size: 100%;
       background-position-y: 1vw;
