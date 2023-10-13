@@ -1,0 +1,288 @@
+body{
+    background-color: black;
+}
+.D{
+    position: fixed;
+    z-index: 0;
+    width: 99%;
+    height: 5.5vw;
+    background-color: white;
+    border-radius: .5vw;
+    border-width: .5vw;
+    border-color: red;
+    border-style: solid;
+}
+.B{
+    position: fixed;
+    padding-left: .8%;
+    padding-top: .75%;
+    width: 96.9%;
+    display: flex;
+    justify-content: space-between;
+    height: 4vw;
+}
+.T{
+    z-index: 10;
+    position: relative;
+    letter-spacing: 30px;
+    padding-left: 12px;
+    width: 4vw;
+    color: yellow;
+    font-family: monospace;
+    font-size: 2.5em;
+    font-weight: bold;
+    background-color: black;
+    border-radius: .5vw;
+    border-width: .5vw;
+    border-color: red;
+    border-style: solid;
+    overflow: hidden;
+    word-break: break-all;
+    transition-duration: .5s;
+    
+}
+.T:hover{
+    padding-left: 5px;
+    letter-spacing: normal;
+    width: 15vw;
+    transition-duration: .5s;
+    background-color: blue;
+    border-color: rgb(0, 0, 131);
+    cursor: pointer;
+}
+.L{
+    width: 3.5vw;
+    
+}
+
+.L:hover{
+    width: 10vw;
+}
+
+::-webkit-scrollbar {
+        width: 1.5vw;
+   }
+::-webkit-scrollbar-track{
+    background-color: white;
+    border-radius: .5em;
+   }
+::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius: .5em;
+    border: .25vw solid red;
+   }
+::-webkit-scrollbar-thumb:hover{
+    background-color: blue;
+    border: .25vw solid rgb(0, 0, 131);
+    
+   }
+
+
+   @media only screen and (max-width: 600px){
+    .I{
+        height: 15vw;
+    }
+    .L{
+        width: 1.5em;
+        font-size: 10.5em;
+    }
+    .D{
+        border-radius: 10.5vw;
+        height: auto;
+    }
+    .B{
+        height: 11vw;
+    }
+    .T{
+        border-width: 1.5vw;
+        border-radius: 1.5vw;
+        height: auto;
+        width: auto;
+        font-size: 5.3em;
+        letter-spacing: 0px;
+    }
+    .T:hover{
+        width: auto;
+    }
+}
+
+
+.start{
+    display: flex;
+    flex-direction: column
+
+}
+.M{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-size: 4.5em;
+    color: yellow;
+    background-color: blue;
+    border-color: red;
+    border-width: 1vw;
+    border-style: groove;
+    font-style: normal;
+}
+.MB{
+    padding-top: 8vw;
+}
+
+.ConList{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 4vw;
+}
+/* thist is part 1 */
+
+.con1{
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    border-width: .5vw;
+    border-radius: 1vw;
+    border-style: solid;
+    border-color: red;
+    font-size: 1.5em;
+    background-image: url(Microsoft_Teams-Logo.wine.svg);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: monospace;
+    font-weight: bold;
+}
+.con1:hover{
+    width: 420px;
+    transition-duration: .5s;
+    background-color: rgb(144, 144, 255);
+    border-color: rgb(0, 0, 131);
+    cursor: pointer;
+    color: white;
+}
+.con2{
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    border-width: .5vw;
+    border-radius: 1vw;
+    border-style: solid;
+    border-color: red;
+    font-size: 1.5em;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: monospace;
+    font-weight: bold;
+    background-image: url(Gmail-Logo.wine.svg);
+}
+.con2:hover{
+    width: 420px;
+    transition-duration: .5s;
+    background-color: blue;
+    border-color: rgb(0, 0, 131);
+    cursor: pointer;
+    color: white;
+}
+.con3{
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    border-width: .5vw;
+    border-radius: 1vw;
+    border-style: solid;
+    border-color: red;
+    font-size: 1.5em;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: monospace;
+    font-weight: bold;
+    background-image: url(Discord_\(software\)-Logo-Color-Logo.wine.svg);
+}
+.con3:hover{
+    width: 420px;
+    transition-duration: .5s;
+    background-color: blue;
+    border-color: rgb(0, 0, 131);
+    cursor: pointer;
+    color: white;
+}
+/*this is part 2 */
+.con4{
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    border-width: .5vw;
+    border-radius: 1vw;
+    border-style: solid;
+    border-color: red;
+    font-size: 1.5em;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: monospace;
+    font-weight: bold;
+    background-image: url(Instagram-Logo.wine.svg);
+}
+.con4:hover{
+    width: 420px;
+    transition-duration: .5s;
+    background-color: blue;
+    border-color: rgb(0, 0, 131);
+    cursor: pointer;
+    color: white;
+}
+.con5{
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    border-width: .5vw;
+    border-radius: 1vw;
+    border-style: solid;
+    border-color: red;
+    font-size: 1.5em;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: monospace;
+    font-weight: bold;
+    background-image: url(Microsoft_Forms-Logo.wine.svg);
+}
+.con5:hover{
+    width: 420px;
+    transition-duration: .5s;
+    background-color: blue;
+    border-color: rgb(0, 0, 131);
+    cursor: pointer;
+    color: white;
+}
+.con6{
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    border-width: .5vw;
+    border-radius: 1vw;
+    border-style: solid;
+    border-color: red;
+    font-size: 1.5em;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: monospace;
+    font-weight: bold;
+    background-image: url(Xbox_\(app\)-Logo.wine\ \(1\).svg);
+}
+.con6:hover{
+    width: 420px;
+    transition-duration: .5s;
+    background-color: blue;
+    border-color: rgb(0, 0, 131);
+    cursor: pointer;
+    color: white;
+}
+/* this is the end part */
+.comS{
+    color: lawngreen;
+}

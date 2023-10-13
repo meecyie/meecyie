@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="contacts.css">
+      <title>Meecyie</title>
+      <link rel="icon" type="svg" href="logo.svg">
+   </head>
+   <body>
+    <section class="fill" id="fill">
+    <div>
+        <button class="D"><img class="L" src="logo.svg"></button>
+    <div class="B">
+        <button onclick="location.href='join.html'" class="T">
+        Join</button>
+        <button onclick="location.href='about.html'" class="T">
+            About</button>
+    </div>
+</div>
+</section>
+<section class="fill" id="fill">
+    <div class="MB">
+        <button class="M" onclick="location.href='index.html'">Meecyie</button>
+    </div>
+</section>
+<section>
+    <div class="ConList">
+        <button class="con1" id="copy-button1">
+            <P class="comS" id="text-to-copy1">Erick Lemus Garcis 3394</P>
+            <p>This is a list of contacts for the my teams app that you canuse for common questions and general purposes.</p>
+        </button>
+        <button class="con2" id="copy-button">
+            <p class="comS" id="text-to-copy">meecyie@gmail.com</p>
+            <p>This is my email for reporting bugs or commenting on the website. You can also send me any complaints or advice, or get in touch with me formally.</p>
+        </button>
+        <button class="con3" onclick="location.href='https://discord.gg/j6kA2p7H'">
+            <p class="comS">Meecyie center</p>
+            <p>This is the website chat log for all members and friends who want to get in touch and to know each other.</p>
+        </button>
+    </div>
+    <div class="ConList">
+        <button class="con4" onclick="location.href='https://instagram.com/ericklemus106?igshid=MzMyNGUyNmU2YQ=='">
+            <p class="comS">@ericklemus106</p>
+            <p>You can reach me more privately through this channel and I rarely share anything on Instagram.</p>
+            </button>
+        <button class="con5" onclick="location.href='https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAACKiFzxUQVNESU9OVFNQRUJVQVhTVDQwRzMxUkVFVS4u'">
+            <p class="comS">Form</p>
+            <p>You can complete a form if you have not already done so or if you wish to join the club.</p>
+        </button>
+        <button class="con6" onclick="location.href='http://live.xbox.com/Profile?Gamertag=<meecyie>'">
+        <p class="comS">Meecyie Xbox</p>
+        <p>This is my gamertag where I play Minecraft. If you would like to become friends and play Minecraft, you can join my realm.</p>
+        </button>
+    </div>
+</section>
+<script>
+  // Get the elements from the document
+  const textToCopy = document.getElementById("text-to-copy");
+  const copyButton = document.getElementById("copy-button");
+
+  // Add a click event listener to the button
+  copyButton.addEventListener("click", function() {
+    // Get the text content from the <p> element
+    const text = textToCopy.textContent; 
+
+    // Use the navigator.clipboard.writeText method to copy the text to the clipboard
+    navigator.clipboard.writeText(text)
+      .then(() => {
+        // Show a success message
+        alert("Text copied to clipboard!");
+      })
+      .catch((error) => {
+        // Show an error message
+        alert("Failed to copy text: " + error);
+      });
+  });
+</script>
+
+   </body>
+</html>
