@@ -1,0 +1,157 @@
+body{
+    background-color: black;
+    margin: 10px;
+}
+.D{
+    position: fixed;
+    z-index: 1;
+    width: 99%;
+    height: 5.5vw;
+    background-color: white;
+    border-radius: .5vw;
+    border-width: .5vw;
+    border-color: yellow;
+    border-style: solid;
+}
+.B{
+    position: fixed;
+    padding-left: .8%;
+    padding-top: .75%;
+    width: 97.4%;
+    display: flex;
+    justify-content: space-between;
+    height: 4vw;
+    z-index: 2;
+}
+.T{
+    z-index: 10;
+    position: relative;
+    letter-spacing: 30px;
+    padding-left: 12px;
+    width: 4vw;
+    color: white;
+    font-family: monospace;
+    font-size: 2.5em;
+    font-weight: bold;
+    background-color: green;
+    border-radius: .5vw;
+    border-width: .5vw;
+    border-color: yellow;
+    border-style: solid;
+    overflow: hidden;    
+}
+.T:hover{
+    padding-left: 5px;
+    letter-spacing: normal;
+    width: 15vw;
+    transition-duration: .5s;
+    background-color: yellow;
+    border-color: green;
+    color: green;
+}
+.L{
+    width: 3.5vw;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 1.5vw;
+}
+::-webkit-scrollbar-track{
+background-color: black
+;
+border-radius: .5em;
+}
+::-webkit-scrollbar-thumb{
+background-color: black;
+border-radius: .5em;
+border: .35vw solid yellow;
+}
+::-webkit-scrollbar-thumb:hover{
+background-color: yellow;
+border: .35vw solid green;
+
+}
+
+
+.Vlist{
+    padding-top: 3vw;
+    display: none;
+}
+.BV{
+    border-width: 10px;
+    border-color: red;
+    border-radius: 10px;
+    border-style: solid;
+    background-color: black;
+}
+.V1{
+    width: 49.85%;
+    height: auto;
+}
+.M{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-size: 4.5em;
+    color: white;
+    background-color: green;
+    border-color: yellow;
+    border-width: 1vw;
+    border-style: groove;
+    font-style: normal;
+}
+.MD{
+    padding-top: 7vw;
+}
+.M:hover{
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px){
+    .I{
+        height: 15vw;
+    }
+    .L{
+        width: 1.5em;
+        font-size: 10.5em;
+    }
+    .A{
+        border-width: 2vw;
+        border-radius: 1.5vw;
+        height: auto;
+        font-size: 3em;
+    }
+    .T{
+    width: 30%;
+    height: 8.5vw;
+    letter-spacing: 1px;
+    font-size: 1.5em;
+    }
+    .D{
+        height: 10vw;
+        border-width: 1.5vw;
+        border-radius: 2vw;
+        width: 96%;
+    }
+    .L{
+        width: 5vw;
+    }
+    .D{
+        border-radius: 2vw;
+        height: auto;
+    }
+    .B{
+        width: 94.5%;
+    height: auto;
+    }
+    .M{
+        width: 70%;
+        font-size: 3em;
+        border-width: 3vw;
+    }
+    .MD{
+        padding-top: 13vw;
+    }
+}
