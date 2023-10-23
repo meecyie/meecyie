@@ -1,0 +1,401 @@
+body {
+    background-color: black;
+    margin: 10px;
+}
+
+
+.Boxer {
+    width: 98%;
+    height: auto;
+    background-color: white;
+    border-color: yellow;
+    border-width: 1vw;
+    border-style: solid;
+    border-radius: 1vw;
+    height: 5vw;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.T {
+    margin: .4vw;
+    border-width: .5vw;
+    border-color: green;
+    border-style: solid;
+    border-radius: 1vw;
+    background-color: yellow;
+    height: 4.2vw;
+    width: 4.2vw;
+    transition: .5s;
+    letter-spacing: 5vw;
+    font-size: 2.5vw;
+    font-weight: 750;
+    padding-left: .8vw;
+    color: black;
+    overflow: hidden;
+}
+
+.T:hover {
+    width: 10vw;
+    letter-spacing: normal;
+    padding-left: 0vw;
+    border-color: yellow;
+    background-color: green;
+    color: white;
+}
+
+.im {
+    background-color: white;
+    border: none;
+    width: 5vw;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-image: url(logo.svg);
+}
+
+
+
+::-webkit-scrollbar {
+    width: 1.5vw;
+}
+
+
+
+::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: .5em;
+    border: .35vw solid yellow;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: yellow;
+    border: .35vw solid green;
+
+}
+
+
+
+
+
+.start {
+    display: flex;
+    flex-direction: column
+}
+
+.logoL{
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    padding-top: 8vw;
+    padding-bottom: 1vw;
+}
+.bigL{
+    width: 25%;
+}
+.M {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+    font-size: 10vw;
+    font-weight: 900;
+    color: white;
+    background-color: green;
+    border-color: yellow;
+    border-width: 1vw;
+    border-style: groove;
+    font-style: normal;
+}
+
+.ps {
+    display: flex;
+    justify-content: space-around;
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    z-index: 10000000;
+}
+
+.her {
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 3rem;
+    background-color: white;
+    border-color: yellow;
+    border-radius: 1vw;
+    border-width: 10px;
+    border-style: solid;
+    width: 50vw;
+    height: 40vw;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box {
+    width: 20vw;
+    height: 2vw;
+    font-size: 2rem;
+    color: green;
+    background-color: yellow;
+    border-color: green;
+    border-style: ridge;
+    border-width: 1vw;
+}
+
+.shi {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.500);
+    box-shadow: 0px 0px 10000px 50px inset;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.fc {
+    width: 20vw;
+    height: 20vw;
+    border-width: .5vw;
+    border-style: solid;
+    border-radius: 1vw;
+    border-color: yellow;
+    color: green;
+    background-color: white;
+    font-size: 3.5vw;
+    font-family: monospace;
+    font-weight: bold;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(filelogo.svg);
+    transition-duration: .5s;
+}
+
+.fc:hover {
+    width: 25vw;
+    transition-duration: .5s;
+    background-color: yellow;
+    border-color: green;
+    cursor: pointer;
+}
+
+.cc {
+    width: 20vw;
+    height: 20vw;
+    border-width: .5vw;
+    border-style: solid;
+    border-radius: 1vw;
+    border-color: yellow;
+    color: green;
+    background-color: white;
+    font-size: 3.5vw;
+    font-family: monospace;
+    font-weight: bold;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(ContactLogo.svg);
+    transition-duration: .5s;
+}
+
+.cc:hover {
+    width: 25vw;
+    transition-duration: .5s;
+    background-color: yellow;
+    border-color: green;
+    cursor: pointer;
+}
+
+.vc {
+    width: 20vw;
+    height: 20vw;
+    border-width: .5vw;
+    border-style: solid;
+    border-radius: 1vw;
+    border-color: yellow;
+    color: green;
+    background-color: white;
+    font-size: 3.5vw;
+    font-family: monospace;
+    font-weight: bold;
+    background-size: 130%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(PlayLogo.svg);
+    transition-duration: .5s;
+}
+
+.vc:hover {
+    width: 25vw;
+    transition-duration: .5s;
+    background-color: yellow;
+    border-color: green;
+    cursor: pointer;
+}
+
+.ac {
+    width: 20vw;
+    height: 20vw;
+    border-width: .5vw;
+    border-style: solid;
+    border-radius: 1vw;
+    border-color: yellow;
+    color: green;
+    background-color: white;
+    font-size: 3.5vw;
+    font-family: monospace;
+    font-weight: bold;
+    background-size: 125%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(AddonLogo.svg);
+    transition-duration: .5s;
+}
+
+.ac:hover {
+    width: 25vw;
+    background-color: yellow;
+    border-color: green;
+    cursor: pointer;
+    background-size: 125%;
+}
+
+@media all and (max-width: 600px) {
+    .Boxer {
+        height: 10vw;
+        border-width: 2vw;
+        width: 97%;
+    }
+
+    .T {
+        width: 30vw;
+        letter-spacing: normal;
+        font-size: 7vw;
+        height: 10vw;
+        margin-top: .7vw;
+        border-width: 1.5vw;
+        margin: 0px;
+        background-color: white;
+    }
+
+    .im {
+        width: 10vw;
+    }
+
+    .M {
+        font-size: 3.5em;
+        width: 90%;
+        border-width: 3vw;
+    }
+
+    .logoL {
+        padding-top: 13vw;
+        padding-bottom: 1vw;
+    }
+
+    .bigL {
+        width: 50vw;
+    }
+
+    .content {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        height: 100vw;
+    }
+
+    .ac {
+        width: 50%;
+        height: 50vw;
+        font-size: 3em;
+        border-width: 3vw;
+        border-radius: 3vw;
+    }
+
+    .cc {
+        width: 50%;
+        height: 50vw;
+        font-size: 2.7em;
+        border-width: 3vw;
+        border-radius: 3vw;
+    }
+
+    .fc {
+        width: 50%;
+        height: 50vw;
+        font-size: 3em;
+        border-width: 3vw;
+        border-radius: 3vw;
+    }
+
+    .vc {
+        width: 50%;
+        height: 50vw;
+        font-size: 3em;
+        border-width: 3vw;
+        border-radius: 3vw;
+    }
+
+    .ac:hover {
+        width: 50%;
+        height: 50vw;
+        font-size: 3em;
+        border-width: 3vw;
+        border-radius: 3vw;
+    }
+
+    .cc:hover {
+        width: 50%;
+        height: 50vw;
+        font-size: 3em;
+        border-width: 3vw;
+        border-radius: 3vw;
+    }
+
+    .fc:hover {
+        width: 50%;
+        height: 50vw;
+        font-size: 3em;
+        border-width: 3vw;
+        border-radius: 3vw;
+    }
+
+    .vc:hover {
+        width: 50%;
+        height: 50vw;
+        font-size: 3em;
+        border-width: 3vw;
+        border-radius: 3vw;
+    }
+
+    .her {
+        width: 100%;
+        height: 50%;
+        font-size: 3em;
+        letter-spacing: vw;
+        word-spacing: -2vw;
+    }
+
+    .box {
+        width: 90%;
+        height: 10vw;
+        border-width: 2.5vw;
+        font-size: 1em;
+
+    }
+}
