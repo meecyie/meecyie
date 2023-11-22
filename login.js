@@ -1,6 +1,4 @@
 
-setInterval(checkPasswordistrue, 1);
-
 function checkPasswordistrue() {
   var rightpassword = localStorage.getItem("rightpassword")
   if (rightpassword !== null) {
@@ -59,3 +57,5 @@ function checkPassword() {
 
 // assign the checkPassword function to the onkeyup event of the password input element
 password.onkeyup = checkPassword;
+
+setInterval(checkPasswordistrue, 1);
